@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio 1 - lista de productos</title>
+   
+</head>
+ <style>
+        body{
+            background-color: royalblue
+            fontf-family: sans-serif;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+        }
+        .container 
+{
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 6x rgba(0, 0, 0,0.1);
+}    </style>
+<body>
+    <div class="container">
+        <h1>buscador de productos</h1> </div>
+        <div class="lista-productos">
+            <p>
+                <strong> lista de productos: </strong> 
+                <span id="listaproductosspan"></span> 
+            </p>
+            
+        </div>
+</body>
+<script>
+  const spanelement =document.getElementById("listaproductosspan")
+  spanelement.textContent = "laptop, impresora";
+</script>
+</html>
